@@ -375,3 +375,12 @@ The analysis shows that JobSatisfaction, Training, OverTime, and Workload are ke
 
   # Power Bi Dashboard
   https://app.powerbi.com/view?r=eyJrIjoiZWEyZmQ4NWMtODYyMC00YmI5LWJlNjItMzEzODI1ZjQyYjBhIiwidCI6ImE0MzM3ZTM0LTk0MjktNDQxNS05YjljLTJjNTQ3NmQzYWY1ZSIsImMiOjF9
+
+  # Reports
+  
+[DAT430-PROJECT-ONE(preprocessing).pdf](https://github.com/user-attachments/files/17093009/DAT430-PROJECT-ONE.preprocessing.pdf)
+
+[dat430-HRanalysis .pdf](https://github.com/user-attachments/files/17093013/dat430-HRanalysis.pdf)
+
+
+[DAT430 PROJECT-TWO(analysis).pdf](https://github.com/user-attachments/files/17093015/DAT430.PROJECT-TWO.analysis.pdf)
