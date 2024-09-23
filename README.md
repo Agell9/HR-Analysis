@@ -234,6 +234,7 @@ I converted the data type of the duplicated columns from numbers to text. This c
 - 4 = Excellent
 
 # Analysis of Employee Attrition 
+https://github.com/Agell9/HR-Analysis/blob/0580db68b1c641a98cac7682759572087b4a29b6/PYTHON-HRDATA(random-forest-ATTRITION)-PROJECT-TWO%20(1).ipynb
 
 - One of the first trends identified through exploratory data analysis was the high variance in attrition rates across different job roles. Sales Representatives exhibited the highest attrition rate at 45.5%, while Research Scientists had the lowest at 27.7%. This insight suggests that certain roles are inherently more prone to turnover, possibly due to the stress, workload, or expectations associated with them. While Sales Representatives earned higher monthly incomes on average, this did not correlate with lower attrition, indicating that factors beyond compensation—such as job satisfaction and workload—play a critical role in employee retention.
 
