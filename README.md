@@ -388,3 +388,4 @@ The analysis shows that JobSatisfaction, Training, OverTime, and Workload are ke
 # Python Codes 
 https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(preprocessing)-PROJECT-ONE.ipynb
 https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(regression-satisfaction%26performance).ipynb
+https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(random-forest-ATTRITION)-PROJECT-TWO%20(1).ipynb
