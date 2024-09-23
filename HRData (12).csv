@@ -1,0 +1,11 @@
+Age,BusinessTravel,DailyRate,Department,DistanceFromHome,JobLevel,HourlyRate,MonthlyRate,MonthlyIncome,JobRole,Education,EducationField,EmployeeCount,EmployeeNumber,EnvironmentSatisfaction,Gender,JobInvolvement,JobSatisfaction,MaritalStatus,NumCompaniesWorked,Over18,OverTime,PercentSalaryHike,RelationshipSatisfaction,PerformanceRating,StandardHours,StockOptionLevel,TotalWorkingYears,TrainingTimesLastYear,WorkLifeBalance,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,Attrition
+47,Travel_Rarely,802,Research & Development,38,4,70,11200,8960,Manufacturing Director,14,Life Sciences,1,17-5141324,3,Female,4,1,Single,5,Yes,No,15,1,1,80,3,37,4,4,1,16,13,13,Yes
+51,Non-Travel,963,Research & Development,13,5,135,21600,17280,Research Scientist,20,Technical Degree,1,99-8417203,3,Male,4,1,Married,2,Yes,No,24,2,2,80,3,30,0,4,25,10,13,4,Yes
+19,Non-Travel,793,Sales,22,5,126,20160,16128,Sales Executive,16,Medical,1,32-8714355,1,Female,2,2,Single,3,Yes,No,19,1,1,80,2,12,2,3,10,3,15,5,No
+47,Non-Travel,554,Research & Development,28,3,104,16640,13312,Research Scientist,20,Other,1,16-2883611,4,Male,2,4,Married,5,Yes,No,18,3,2,80,2,23,4,1,3,14,10,13,Yes
+57,Travel_Frequently,1010,Sales,10,3,137,21920,17536,Manufacturing Director,16,Sales,1,32-9684675,2,Female,1,1,Married,6,Yes,No,22,3,3,80,1,17,5,2,3,4,15,3,No
+35,Non-Travel,1272,Sales,42,4,60,9600,7680,Research Scientist,18,Technical Degree,1,79-2504265,1,Male,3,2,Single,2,Yes,No,11,4,3,80,3,27,3,1,16,12,14,3,No
+39,Non-Travel,720,Research & Development,23,2,73,11680,9344,Research Scientist,18,Medical,1,92-7529838,3,Male,3,4,Married,8,Yes,No,18,4,2,80,1,28,6,2,17,4,3,5,Yes
+30,Travel_Frequently,856,Research & Development,19,3,127,20320,16256,Research Scientist,20,Technical Degree,1,06-5339585,1,Male,4,3,Married,0,Yes,No,11,2,3,80,1,24,1,3,31,7,1,4,No
+60,Travel_Frequently,1224,Sales,46,1,135,21600,17280,Laboratory Technician,16,Medical,1,83-1865147,2,Female,2,2,Single,4,Yes,No,12,2,4,80,0,21,0,2,32,4,10,1,Yes
+54,Travel_Frequently,1193,Research & Development,47,5,138,22080,17664,Manufacturing Director,14,Technical Degree,1,18-6912054,4,Female,2,3,Single,8,Yes,No,22,2,2,80,3,2,6,2,27,13,9,7,Yes

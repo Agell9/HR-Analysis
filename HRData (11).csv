@@ -1,0 +1,11 @@
+Age,BusinessTravel,DailyRate,Department,DistanceFromHome,JobLevel,HourlyRate,MonthlyRate,MonthlyIncome,JobRole,Education,EducationField,EmployeeCount,EmployeeNumber,EnvironmentSatisfaction,Gender,JobInvolvement,JobSatisfaction,MaritalStatus,NumCompaniesWorked,Over18,OverTime,PercentSalaryHike,RelationshipSatisfaction,PerformanceRating,StandardHours,StockOptionLevel,TotalWorkingYears,TrainingTimesLastYear,WorkLifeBalance,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,Attrition
+54,Non-Travel,889,Research & Development,48,1,98,15680,12544,Sales Representative,16,Life Sciences,1,53-6036170,3,Male,4,3,Married,6,Yes,No,17,2,3,80,0,13,6,2,13,18,12,0,No
+38,Travel_Rarely,1401,Sales,17,2,92,14720,11776,Research Director,18,Other,1,62-4046878,2,Male,4,3,Single,6,Yes,No,19,2,3,80,0,32,0,4,36,6,1,8,Yes
+45,Travel_Rarely,925,Sales,28,1,79,12640,10112,Laboratory Technician,16,Human Resources,1,99-9360981,2,Female,2,1,Single,3,Yes,No,18,2,3,80,1,33,1,4,5,8,9,10,No
+47,Travel_Frequently,412,Human Resources,28,3,140,22400,17920,Manufacturing Director,16,Life Sciences,1,09-8486779,4,Female,3,3,Single,7,Yes,No,11,4,4,80,2,12,0,3,0,9,7,7,No
+25,Travel_Rarely,1235,Sales,25,2,40,6400,5120,Human Resources,14,Medical,1,24-7106532,2,Female,3,2,Married,4,Yes,No,20,1,2,80,1,24,3,1,5,9,3,0,Yes
+21,Travel_Frequently,401,Research & Development,22,4,94,15040,12032,Sales Representative,16,Sales,1,16-0585633,4,Female,2,4,Married,7,Yes,No,16,2,4,80,3,34,1,4,32,4,9,17,No
+36,Travel_Rarely,608,Sales,9,3,130,20800,16640,Manager,18,Technical Degree,1,75-4815962,1,Female,4,4,Single,4,Yes,No,20,2,1,80,1,16,4,3,37,14,10,13,Yes
+51,Travel_Frequently,275,Sales,6,2,64,10240,8192,Research Director,20,Human Resources,1,02-2630717,4,Female,2,2,Married,0,Yes,No,16,1,1,80,1,10,6,1,12,11,2,15,Yes
+24,Non-Travel,1321,Sales,27,3,46,7360,5888,Laboratory Technician,14,Medical,1,95-9932395,4,Male,1,2,Married,1,Yes,No,19,2,3,80,2,39,2,2,19,5,13,0,Yes
+54,Travel_Rarely,829,Research & Development,10,3,137,21920,17536,Sales Executive,16,Life Sciences,1,77-8172277,4,Female,3,3,Married,2,Yes,No,22,3,3,80,1,23,3,2,40,18,4,13,Yes

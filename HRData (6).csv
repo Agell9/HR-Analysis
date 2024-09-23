@@ -1,0 +1,11 @@
+Age,BusinessTravel,DailyRate,Department,DistanceFromHome,JobLevel,HourlyRate,MonthlyRate,MonthlyIncome,JobRole,Education,EducationField,EmployeeCount,EmployeeNumber,EnvironmentSatisfaction,Gender,JobInvolvement,JobSatisfaction,MaritalStatus,NumCompaniesWorked,Over18,OverTime,PercentSalaryHike,PerformanceRating,RelationshipSatisfaction,StandardHours,StockOptionLevel,TotalWorkingYears,TrainingTimesLastYear,WorkLifeBalance,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,Attrition
+40,Travel_Rarely,649,Research & Development,22,4,142,22720,18176,Research Director,18,Other,1,36-4908138,3,Male,2,4,Single,5,Yes,No,25,4,2,80,3,14,2,2,9,5,10,2,No
+52,Non-Travel,328,Human Resources,27,4,117,18720,14976,Research Director,18,Human Resources,1,86-1864922,2,Female,3,4,Married,8,Yes,No,10,2,4,80,2,8,3,2,6,18,4,9,Yes
+50,Travel_Rarely,525,Research & Development,2,5,77,12320,9856,Research Scientist,18,Human Resources,1,67-4034326,1,Male,2,3,Married,5,Yes,No,20,2,3,80,2,27,2,3,6,16,14,4,Yes
+26,Travel_Frequently,700,Research & Development,3,5,54,8640,6912,Human Resources,16,Technical Degree,1,42-2899087,3,Male,4,1,Married,3,Yes,No,14,3,4,80,3,39,1,2,29,7,15,11,No
+45,Travel_Frequently,1382,Human Resources,8,2,47,7520,6016,Human Resources,14,Human Resources,1,66-8410523,1,Female,3,2,Single,6,Yes,No,21,3,2,80,0,7,3,3,31,4,3,1,Yes
+53,Travel_Frequently,1075,Sales,21,2,106,16960,13568,Manager,16,Other,1,64-7464356,1,Female,1,1,Married,1,Yes,No,18,2,2,80,1,20,2,2,24,3,9,6,Yes
+50,Travel_Frequently,1269,Human Resources,34,5,146,23360,18688,Manufacturing Director,14,Other,1,94-6690456,3,Male,1,1,Single,6,Yes,No,19,1,3,80,2,9,3,2,40,1,11,10,No
+31,Travel_Rarely,355,Sales,43,2,140,22400,17920,Sales Executive,18,Human Resources,1,75-5887756,4,Male,4,4,Single,3,Yes,No,22,2,1,80,0,23,3,3,38,18,15,2,No
+47,Non-Travel,616,Sales,5,3,114,18240,14592,Sales Executive,14,Medical,1,55-8875476,1,Female,1,2,Single,6,Yes,No,12,4,1,80,1,34,4,2,18,8,12,4,Yes
+18,Travel_Frequently,672,Research & Development,30,4,87,13920,11136,Research Director,16,Medical,1,29-6315250,4,Male,1,2,Single,0,Yes,No,18,2,3,80,3,4,2,2,7,17,5,5,No
