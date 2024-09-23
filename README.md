@@ -186,7 +186,7 @@ Given these inconsistencies, I decided to remove the 'Department' column entirel
 ### Saving the Final Merged Dataset:
 
 
-- After extracting each job role into its own CSV, I merged all the job roles into a single workbook in excel named Merged_Hr_Training_Data1, where each sheet represents a unique job role. This restructured dataset allows for better analysis based on job roles, eliminating the inconsistencies tied to the original departments.
+- After extracting each job role into its own CSV, I merged all the job roles into a single workbook in excel named Merged_Hr_Training_Data_workbook where each sheet represents a unique job role. This restructured dataset allows for better analysis based on job roles, eliminating the inconsistencies tied to the original departments.
 
   # Additional Data Preparation In Power Bi
 
