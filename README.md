@@ -385,7 +385,9 @@ The analysis shows that JobSatisfaction, Training, OverTime, and Workload are ke
 
 [DAT430 PROJECT-TWO(analysis).pdf](https://github.com/user-attachments/files/17093015/DAT430.PROJECT-TWO.analysis.pdf)
 
-# Python Codes 
+# Python Codes in Jupyter Notebook 
 https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(preprocessing)-PROJECT-ONE.ipynb
+
 https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(regression-satisfaction%26performance).ipynb
+
 https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(random-forest-ATTRITION)-PROJECT-TWO%20(1).ipynb
