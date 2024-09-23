@@ -384,3 +384,6 @@ The analysis shows that JobSatisfaction, Training, OverTime, and Workload are ke
 
 
 [DAT430 PROJECT-TWO(analysis).pdf](https://github.com/user-attachments/files/17093015/DAT430.PROJECT-TWO.analysis.pdf)
+
+# Python Codes 
+https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(preprocessing)-PROJECT-ONE.ipynb
