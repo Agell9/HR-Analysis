@@ -372,3 +372,6 @@ The analysis shows that JobSatisfaction, Training, OverTime, and Workload are ke
 ### Performance Recognition Programs:
 
 - Incentivize Performance: Implement recognition programs to reward employees who improve performance post-training, boosting both JobSatisfaction and PerformanceRatings.
+
+  # Power Bi Dashboard
+  https://app.powerbi.com/view?r=eyJrIjoiZWEyZmQ4NWMtODYyMC00YmI5LWJlNjItMzEzODI1ZjQyYjBhIiwidCI6ImE0MzM3ZTM0LTk0MjktNDQxNS05YjljLTJjNTQ3NmQzYWY1ZSIsImMiOjF9
