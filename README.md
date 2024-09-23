@@ -54,6 +54,7 @@ In addition to the main file, there were 14 smaller datasets, titled "HRData(1)"
 This data was used to analyze HR attrition patterns, helping the organization identify and address factors that contribute to employee turnover.
 
 # Data Preparation (Python)
+https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(preprocessing)-PROJECT-ONE.ipynb
 
 The data preparation phase for this project involved several critical steps to ensure consistency, accuracy, and readiness for further analysis. A total of 15 CSV files, including the main HR Training Data and 14 additional HR datasets, were cleaned, standardized, and merged into a single dataset using python.  Initially, the dataset included a 'Department' column with three distinct departments: Sales, Human Resources, and Research & Development. However, I found significant inconsistencies between job roles and their corresponding departments. For example, employees in the 'Sales Executive' job role were incorrectly assigned to the Human Resources department, and similar mismatches were observed across other roles. This made it clear that the 'Department' column was unreliable and did not accurately reflect the organization of the workforce.
 
@@ -183,6 +184,7 @@ Given these inconsistencies, I decided to remove the 'Department' column entirel
        print(df15[['Attrition-Label', 'Attrition_Binary']].head())   
 ```
 ### Saving the Final Merged Dataset:
+
 
 - After extracting each job role into its own CSV, I merged all the job roles into a single workbook in excel named Merged_Hr_Training_Data1, where each sheet represents a unique job role. This restructured dataset allows for better analysis based on job roles, eliminating the inconsistencies tied to the original departments.
 
