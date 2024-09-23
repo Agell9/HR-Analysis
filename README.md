@@ -282,7 +282,8 @@ I converted the data type of the duplicated columns from numbers to text. This c
         print(comparison_df)
 ```
 
-# Relationship Between Training and Job Satisfaction
+# Relationship Between Training and Job Satisfaction 
+https://github.com/Agell9/HR-Analysis/blob/636fefe79dfd4c5cbad7a2e4c42b345bbb835db4/PYTHON-HRDATA(regression-satisfaction%26performance).ipynb
 
 - A key area of interest was whether the amount of training employees received influenced their job satisfaction and performance. A linear regression model was built to measure the impact of training on job satisfaction, which yielded the following results: Intercept (Baseline Job Satisfaction): 2.21 Coefficient (Impact of Training): 0.162
 
@@ -300,6 +301,7 @@ I converted the data type of the duplicated columns from numbers to text. This c
 ```
 
 # Relationship Between Training and Performance Rating
+https://github.com/Agell9/HR-Analysis/blob/636fefe79dfd4c5cbad7a2e4c42b345bbb835db4/PYTHON-HRDATA(regression-satisfaction%26performance).ipynb
 
 - Intercept (Baseline Performance Rating): 2.49
 - Coefficient (Impact of Training): 0.114
