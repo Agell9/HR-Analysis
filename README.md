@@ -473,40 +473,82 @@ not as impactful as promotions.
 
 The primary goal of this analysis was to identify factors driving employee attrition and predict which employees are most likely to leave. Through exploratory data analysis (EDA) and predictive modeling (Logistic Regression and Random Forest), we uncovered several key insights.
 
-### Key Findings:
-**Job Satisfaction and Performance vs. Training:**
+# Key Insights 
 
-- For each additional unit of training, job satisfaction increases by 0.162 units, highlighting the critical role of employee development in boosting satisfaction.
-- Performance rating improves by 0.114 units with each additional unit of training, showing that more training leads to better employee performance.
-Attrition by Job Role:
+### Time Since Last Promotion  
+- Employees who had not been promoted in 3+ years saw a significant increase in attrition. After 
+14 years, over 50% of employees who hadn’t been promoted left the company.
 
-- Sales Representatives have the highest attrition rate (45.5%) despite higher average monthly incomes ($7,986). This suggests income alone does not prevent turnover.
-- Research Scientists have the lowest attrition rate (27.7%) with lower average monthly incomes ($6,858), but higher job satisfaction and performance ratings help retain them.
-Job Satisfaction and Overtime:
+### Job Satisfaction and Performance vs. Training
+- For each additional unit of training, job satisfaction increases by 0.162 units.
+- For each additional unit of training, performance rating increases by 0.114 units.
 
-- Lower JobSatisfaction strongly predicts attrition, particularly in roles like Sales and Human Resources.
-- Overtime is a significant factor, with employees working more overtime being more likely to leave due to burnout.
-Predictive Models:
+### Attrition by Job Role
 
-- The Random Forest Classifier performed better (68% accuracy) than Logistic Regression (64% accuracy), indicating a more complex set of factors driving attrition, such as job satisfaction, income, and overtime.
 
-The analysis shows that JobSatisfaction, Training, OverTime, and Workload are key drivers of attrition. While income is important, it does not prevent turnover in the same way that job satisfaction and training do. Offering professional development and managing workload can improve retention and performance.
+- Sales Representatives had the highest attrition rate at 45.5%, despite having one of the 
+highest average monthly incomes ($7,986). This indicates that income alone is 
+insufficient to prevent turnover.
+
+-  Research Scientists had the lowest attrition rate at 27.7%, even with a lower average 
+monthly income ($6,858). Their higher Job Satisfaction (2.72 vs. 2.61 for Sales 
+Representatives) and Performance Rating (2.95 vs. 2.70) suggest that these factors are 
+more important than income in retaining employees.
+
+### Job Satisfaction and Overtime:
+
+- Lower Job Satisfaction was a strong predictor of attrition. Employees with lower 
+satisfaction scores, particularly in Sales and Human Resources, were more likely to leave.
+
+- Overtime was another key factor. Employees who worked overtime were more likely to 
+leave
+
+
+
+
+
+
+
+
+
+# Conclusion
+
+The primary goal of this analysis was to identify the key factors driving employee attrition and to 
+predict which employees are at the highest risk of leaving. Although the features from the initial 
+Random Forest model were only 68% accurate, using a combination of these features and the 
+refined model’s improved feature set can significantly aid the HR department in developing 
+effective strategies to reduce attrition. By focusing on key predictors like Performance Rating, 
+Years Since Last Promotion, Monthly Income, and Age, the HR team can better understand 
+which employees are most at risk of leaving the company.
 
 # Recommendations 
+### Targeted Training Programs:
+- Since training has a positive impact on both job satisfaction and performance, HR should 
+implement targeted training programs for roles with high attrition, such as Sales Representatives
+and Human Resources.
+ 
+- The data clearly shows that training leads to increased satisfaction and performance, which can 
+help reduce turnover.
+### Career Development Opportunities:
 
-### Enhance Job Satisfaction Through Training:
+-  Establish clear career development and promotion paths, prioritizing employees who have been in 
+their roles for 3 years or more. Employees without promotions for 3+ years are at significantly 
+higher risk of leaving.
+- Providing personalized training plans and development opportunities will help keep employees 
+engaged and satisfied with their career progression.
+### Work-Life Balance and Retention:
 
-- Targeted Training Programs: Focus on roles with high attrition, like Sales Representatives and Human Resources, where training has the most impact.
-- Career Development: Create clear promotion paths and personalized training plans to keep employees engaged and satisfied.
 
-### Manage Workload and Overtime
-
-- Work-Life Balance Initiatives: Implement flexible schedules, limit mandatory overtime, and promote a culture that prioritizes work-life balance to reduce burnout.
-- Monitor Workload: Regularly assess and redistribute workloads in high-attrition roles, such as Sales Representatives, and consider hiring additional staff where needed.
-
+- Work-life balance initiatives, such as flexible work schedules and addressing commute-related 
+stress, could help reduce attrition, particularly in roles where Distance From Home is a factor.
 ### Performance Recognition Programs:
 
-- Incentivize Performance: Implement recognition programs to reward employees who improve performance post-training, boosting both JobSatisfaction and PerformanceRatings.
+- Implementing performance-based incentives that recognize employees who show 
+improvement after completing training can motivate participation in professional 
+development programs.
+ 
+- This will not only improve Job Satisfaction but also increase Performance Ratings,
+contributing to overall productivity and retention
 
 # Power Bi Dashboard
   https://app.powerbi.com/view?r=eyJrIjoiZWEyZmQ4NWMtODYyMC00YmI5LWJlNjItMzEzODI1ZjQyYjBhIiwidCI6ImE0MzM3ZTM0LTk0MjktNDQxNS05YjljLTJjNTQ3NmQzYWY1ZSIsImMiOjF9
@@ -515,10 +557,8 @@ The analysis shows that JobSatisfaction, Training, OverTime, and Workload are ke
   
 [DAT430-PROJECT-ONE(preprocessing).pdf](https://github.com/user-attachments/files/17093009/DAT430-PROJECT-ONE.preprocessing.pdf)
 
-[dat430-HRanalysis .pdf](https://github.com/user-attachments/files/17093013/dat430-HRanalysis.pdf)
+[UPDATED-DAT430 PROJECT-TWO(analysis).pdf](https://github.com/user-attachments/files/17158263/UPDATED-DAT430.PROJECT-TWO.analysis.pdf)
 
-
-[DAT430 PROJECT-TWO(analysis).pdf](https://github.com/user-attachments/files/17093015/DAT430.PROJECT-TWO.analysis.pdf)
 
 # Python Codes in Jupyter Notebook 
 https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(preprocessing)-PROJECT-ONE.ipynb
@@ -526,3 +566,4 @@ https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(preprocessing)-PRO
 https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(regression-satisfaction%26performance).ipynb
 
 https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(random-forest-ATTRITION)-PROJECT-TWO%20(1).ipynb
+
