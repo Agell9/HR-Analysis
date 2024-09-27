@@ -360,6 +360,7 @@ The Random Forest model performed better, likely because of its ability to captu
       print(f"Random Forest Accuracy: {rf_accuracy:.2f}")
 ```
 # Refined Predictive Model 
+https://github.com/Agell9/HR-Analysis/blob/a039de9193acae46d9c735f04d187aadd18e2dea/PYTHON%20Refined%20Random%20Forest.ipynb
 
 After running the initial Random Forest model and achieving a 68% prediction accuracy. The Model was further refined using **Hyperparameter tuning and GridsearchCV**  to achieve better performance.  A more focused set of features were created while eliminating less important variables. This resulted in a new Random Forest model with a 79% prediction accuracy, offering more reliable predictions of employee attrition.
 
