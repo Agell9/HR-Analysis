@@ -470,9 +470,7 @@ not as impactful as promotions.
 
 **Distance From Home** 
 - Longer commutes contributed to higher attrition.
-# Key Findings & Conclusion 
 
-The primary goal of this analysis was to identify factors driving employee attrition and predict which employees are most likely to leave. Through exploratory data analysis (EDA) and predictive modeling (Logistic Regression and Random Forest), we uncovered several key insights.
 
 # Key Insights 
 
