@@ -359,7 +359,116 @@ The Random Forest model performed better, likely because of its ability to captu
       rf_accuracy = accuracy_score(y_test, rf_pred)
       print(f"Random Forest Accuracy: {rf_accuracy:.2f}")
 ```
+# Refined Predictive Model 
 
+After running the initial Random Forest model and achieving a 68% prediction accuracy. The Model was further refined using **Hyperparameter tuning and GridsearchCV**  to achieve better performance.  A more focused set of features were created while eliminating less important variables. This resulted in a new Random Forest model with a 79% prediction accuracy, offering more reliable predictions of employee attrition.
+
+
+```ruby
+    from sklearn.model_selection import train_test_split
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.metrics import accuracy_score
+     import pandas as pd
+```
+
+```ruby
+df = pd.read_csv('Merged_HR_Training_Data1.csv')
+X = df[['MonthlyIncome', 'YearsAtCompany', 'JobSatisfaction', 'PerformanceRating', 'OverTime', 
+        'DistanceFromHome', 'EnvironmentSatisfaction', 'WorkLifeBalance', 'YearsSinceLastPromotion', 'Age']]
+y = df['Attrition-Label']
+
+
+```
+
+```ruby
+X = pd.get_dummies(X, columns=['OverTime'], drop_first=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+rf_model = RandomForestClassifier(random_state=42)
+rf_model.fit(X_train, y_train)
+
+```
+
+
+
+```ruby
+rf_pred = rf_model.predict(X_test)
+rf_accuracy = accuracy_score(y_test, rf_pred)
+print(f"Random Forest Accuracy with Additional Features (YearsSinceLastPromotion & Age): {rf_accuracy:.2f}")
+```
+
+
+
+```ruby
+from sklearn.model_selection import GridSearchCV
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+```
+
+
+
+
+```ruby
+param_grid = {
+    'n_estimators': [100, 200, 300],  
+    'max_depth': [10, 20, 30],        
+    'min_samples_split': [2, 5, 10], 
+    'min_samples_leaf': [1, 2, 4],    
+    'bootstrap': [True, False]        
+}
+```
+
+
+
+
+```ruby
+rf = RandomForestClassifier(random_state=42)
+grid_search = GridSearchCV(estimator=rf, param_grid=param_grid, cv=3, n_jobs=-1, verbose=2)
+grid_search.fit(X_train, y_train)
+best_params = grid_search.best_params_
+print(f"Best Parameters: {best_params}")
+
+```
+
+
+
+
+
+```ruby
+best_rf = grid_search.best_estimator_
+best_rf_pred = best_rf.predict(X_test)
+best_rf_accuracy = accuracy_score(y_test, best_rf_pred)
+print(f"Random Forest Accuracy after Hyperparameter Tuning: {best_rf_accuracy:.2f}")
+```
+
+
+
+
+
+```ruby
+```
+
+# Final Feature Set 
+ **Performance Rating** 
+- Employees with lower performance ratings were more likely to 
+leave.
+
+**Monthly Income**
+- While higher incomes helped retain employees, the impact was more 
+nuanced when combined with other factors.
+
+**Age** 
+- Younger employees, especially those aged 18-26, were more likely to leave the 
+company.
+**Years Since Last Promotion**
+- Employees who had not been promoted in 3+ years saw a 
+significant increase in attrition.
+
+**Years at Company**
+- Longer tenure was generally associated with lower attrition, though 
+not as impactful as promotions.
+
+**Distance From Home** 
+- Longer commutes contributed to higher attrition.
 # Key Findings & Conclusion 
 
 The primary goal of this analysis was to identify factors driving employee attrition and predict which employees are most likely to leave. Through exploratory data analysis (EDA) and predictive modeling (Logistic Regression and Random Forest), we uncovered several key insights.
