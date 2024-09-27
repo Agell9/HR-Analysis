@@ -566,3 +566,5 @@ https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(regression-satisfa
 
 https://github.com/Agell9/HR-Analysis/blob/main/PYTHON-HRDATA(random-forest-ATTRITION)-PROJECT-TWO%20(1).ipynb
 
+https://github.com/Agell9/HR-Analysis/blob/0a3b26b12dd2c79c6a64e064cb41f754b21b0a8e/PYTHON%20Refined%20Random%20Forest.ipynb
+
